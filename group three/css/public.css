@@ -1,0 +1,65 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+
+}
+#active
+{
+     
+     color: #D8A235;
+    
+}
+
+.publicimg
+{
+    display: grid;
+    grid-template-columns: 1400px;  
+    grid-template-rows: 304px;
+    background-image: linear-gradient(rgba(51, 52, 56, 0.6), rgba(51, 52, 56, 0.6)), url("../images/0d02e293fde102b60007404768dc8d2b(2).png");
+    background-repeat: no-repeat;
+    padding: 10px 0px;
+}
+
+#pcommit
+{
+    color: white;
+    font-size: 42px;
+    font-family: Roboto;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    text-align: center;
+    margin-top: 130px;
+}
+.polygon1
+{
+    display: grid;
+    grid-template-rows: 70px;
+     padding:0px 686px; 
+    
+    
+
+}
+
+.icon-vecp
+{
+    margin-left: -200px
+}
+.vector1
+{
+    display:grid;
+    grid-template-columns: 70px 70px 70px 70px;
+     grid-column-gap: 20px; 
+    padding: 70px 0px;
+
+}
+.v11,.v21,.v31,.v41
+{
+    border-radius: 50%; 
+    border: 1px solid white;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1px 2px;
+    padding-top: 20px;
+
+}
