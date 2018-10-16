@@ -72,6 +72,7 @@ body
     grid-template-rows: 304px;
     background-image: linear-gradient(rgba(51, 52, 56, 0.6), rgba(51, 52, 56, 0.6)), url("../images/0d02e293fde102b60007404768dc8d2b(2).png");
     background-repeat: no-repeat;
+    padding: 10px 0px;
 }
 .abt
 {
