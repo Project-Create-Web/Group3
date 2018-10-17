@@ -73,11 +73,13 @@ body
     background-image: linear-gradient(rgba(51, 52, 56, 0.6), rgba(51, 52, 56, 0.6)), url("../images/0d02e293fde102b60007404768dc8d2b(2).png");
     background-repeat: no-repeat;
     padding: 10px 0px;
+   
+    
 }
 .abt
 {
     color: white;
-    font-size: 42px;
+    font-size: 25px;
     font-family: Roboto;
     font-weight: bold;
     letter-spacing: 0.08em;
@@ -125,7 +127,7 @@ body
 .p-overview-m
 {
 font-family: Roboto;
-font-size: 32px;
+font-size: 20px;
 letter-spacing: 0.02em;
 color: rgba(48, 52, 51, 0.7);
 margin-left:0px;

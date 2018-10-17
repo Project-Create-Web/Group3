@@ -18,13 +18,13 @@ body
     grid-template-rows: 304px;
     background-image: linear-gradient(rgba(51, 52, 56, 0.6), rgba(51, 52, 56, 0.6)), url("../images/0d02e293fde102b60007404768dc8d2b(2).png");
     background-repeat: no-repeat;
-    padding: 10px 0px;
+    
 }
 
 #pcommit
 {
     color: white;
-    font-size: 42px;
+    font-size: 25px;
     font-family: Roboto;
     font-weight: bold;
     letter-spacing: 0.08em;
@@ -161,10 +161,74 @@ textarea{
 
 }
 
+/*  */
 
 
 
+icon{
+    padding-top: 50px;
+}
+.iconi{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: 3px;
+}
+.facebook{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 8px 12px;
+    margin-left: 3px;
+}
+.google{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 8px 5px;
+    margin-left: 3px;
+}
 
+.ico1{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.ico{
+    border: 2px solid rgb(39, 39, 39);
+    border-radius: 50%;
+    margin: 0 7px;
+    padding: 7px 7px;
+    cursor: pointer;
+}
+.ico2{
+    border: 2px solid rgb(39, 39, 39);
+    border-radius: 50%;
+    margin: 0 7px;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+.ico3{
+    border: 2px solid rgb(39, 39, 39);
+    border-radius: 50%;
+    margin: 0 7px;
+    padding: 7px 5px;
+    cursor: pointer;
+}
+.ico4{
+    border: 2px solid rgb(39, 39, 39);
+    border-radius: 50%;
+    margin: 0 7px;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+.con{
+    cursor: pointer;
+}
+.link{
+    cursor: pointer;
+}
+
+
+
+/*  */
 .tac{
 	font-size: 25px;
 }
