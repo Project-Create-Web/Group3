@@ -9,14 +9,13 @@ body
 {
     display:grid;
     grid-template-columns: auto;
-    /* grid-template-rows: auto;  */
     
 }
 .header
 {
     display: grid;
-    grid-template-columns: 180px 800px;
-    grid-column-gap: 190px;
+    grid-template-columns: 180px auto;
+    grid-column-gap: 150px;
     padding: 13px 95px;
 }
 .logo{
@@ -138,7 +137,6 @@ body
 {
     display: grid;
     grid-template-rows: 480px 480px;
-/* background: linear-gradient(224.38deg, #C4C4C4 , rgba(196, 196, 196, 0) 70.65%); */
 background-color: #C4C4C4;
 color:#303433;
 

@@ -4,17 +4,12 @@ body
     margin:0px;
     overflow-x: hidden;
 }
-.container
-{
-    display:grid;
-    grid-template-columns: auto;
-    /* grid-template-rows: auto;  */
-}
+
 .headerabt
 {
     display: grid;
-    grid-template-columns: 180px 800px;
-    grid-column-gap: 190px;
+    grid-template-columns: 180px auto;
+    grid-column-gap: 150px;
     padding: 13px 105px;
 }
 .logo{
@@ -36,7 +31,7 @@ body
    text-decoration: none;
    font-family: Roboto;
    font-style: normal;
-   font-size: 20px;
+   font-size: 16px;
    line-height: normal;
    text-align: center;
    border-left: 2px solid rgb(104, 91, 91);
@@ -101,14 +96,13 @@ body
 {
     display: grid;
     grid-template-columns: auto auto;
-     /* grid-template-rows: auto auto; */
+   
    
 }
 .mission1
 {
     display: grid;
     grid-template-columns: 700px;  
-    /* grid-template-rows:500px; */
     background: url("../images/image(3).png");
     background-repeat: no-repeat;
     padding: 20px 0px;
@@ -136,7 +130,6 @@ margin-left:0px;
 {
     display: grid;
     grid-template-columns: 700px 700px;
-     /* grid-template-rows: auto auto; */
    
 }
 .missionsub2
@@ -144,13 +137,12 @@ margin-left:0px;
     display: grid;
     grid-template-columns: 420px; 
     padding: 110.5px 150px; 
-    /* margin-top: 5px; */
-    /* margin-left:-190px; */
+
 }
 .mission4
 {
     display: grid;
-    grid-template-columns: 700px;  
+    grid-template-columns: 500px;  
     /* grid-template-rows:500px; */
     background: url("../images/image 2.png");
     background-repeat: no-repeat;
@@ -160,7 +152,7 @@ margin-left:0px;
 .our-team
 {
     display: grid;
-     grid-template-columns: 1400px;
+     grid-template-columns: auto;
     grid-template-rows:  auto auto;
     
 }
